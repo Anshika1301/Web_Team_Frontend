@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-padding-top: 90px;
+	scroll-behavior: smooth;
+}
+
+
+/*--------------- about course section ------------------*/
+.about-course{
+	width: 100%;
+	height:14rem;
+	background-image: url('img/b2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    clear: both;
+    margin-top: 70px;
+    margin-bottom: 5rem;
+}
+
+.about-course h2{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+
+
+/*------------  courses section  -----------*/
+#courses{
+    margin-bottom: 1rem;
+}
+
+
+.card-img-top{
+width: 100%;
+height: auto;
+margin: 0rem;
+}
+
+.card{
+background-color:white;
+border: none;
+margin-bottom: 70px;
+transition: 0.4s;
+color: grey;
+box-shadow: 2px -2px 1px 1px rgba(0, 0, 0, 0.1);
+border-bottom: 4px solid #72d5cd;
+}
+
+.card:hover{
+box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.8);
+cursor: pointer;
+top: -10px;
+border-bottom: none;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.3);
+}
+
+.card-title{
+font-size: 1.2rem;
+color: grey;
+font-weight: 400;
+}
+
+.card-title i{
+color: grey;
+}
+
+.card-link{
+font-size: medium;
+margin-bottom: 50px;
+color: grey;
+}
+
+.card-link:hover{
+color: orange;
+}
+
+.card-text{
+color: grey;
+margin-bottom: 0;
+margin-left: 0;
+}
+
+.icon{
+color:grey;
+display: inline-block;
+}
+
+.card-p{
+padding-top: 5px;
+margin-bottom: 5px;
+}
+
+.card-text i{
+color: grey;
+}
+
+.btn{
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 1px;
+}
+
+/* .btn-success:hover{
+    background-image: #72d5cd;
+} */
+
+
+/*---------- pagination section -----------*/
+
+.pagination{
+    float: right;
+}
+
+.page-link{
+    background-color: #ebebeb;
+    color: grey;
+}
+
+.page-link:hover{
+    background-color: #72d5cd;
+    color: white;
+}
+
+.page-link:focus{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.page-item{
+    margin-right: 10px;
+}
